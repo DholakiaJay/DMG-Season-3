@@ -1,0 +1,234 @@
+body
+{
+    background-color: blueviolet;
+}
+.elements
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    font-size: xx-large;
+    font-weight: 800;
+    color:yellow;
+    background-color:blueviolet;
+    word-spacing: 18px;
+    
+}
+.ele
+{
+   
+    padding: 9px;
+    background-color: yellow;
+    color:blueviolet;
+    border-radius: 45px;
+    border: 2px dotted black;
+}
+
+.log
+{
+    margin-top: 5%;
+    background-color:blueviolet;
+    height: 100%;
+    width: 100%;
+    border-radius: 90px;
+    /* background-image: url("images/cars.png");
+    object-fit: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+
+
+}
+.logo
+{
+
+    height: inherit;
+    width: inherit;
+    border-radius:90px;
+    /* background: transparent;
+    backdrop-filter: blur(1px);
+        */
+
+}
+/* .logo:hover
+{
+
+       
+
+} */
+
+
+.logo img
+{
+    /* visibility:hidden; */
+    position: relative;
+    margin-left: 22%;
+     height: 540px;
+    width: auto;
+}
+
+.heading
+{
+
+background-color:transparent;
+
+color:whitesmoke;
+font-size: xx-large;
+font-weight: 900;
+font-family: cursive;
+text-align: center;
+}
+.service {
+   
+  display:flex;
+  flex-wrap:wrap;
+
+  padding: 50px;
+  /* border:2px solid yellow;
+    border-radius: 45px; */
+  background-color:blueviolet;
+  border-radius: 50px;
+}
+.service img {
+  padding: 10px;
+  /* border:2px solid rgba(241, 241, 117, 0.838);
+    border-radius: 45px; */
+  height: 180px;
+  width: auto;
+}
+.service img:hover
+{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+
+}
+.dec
+{
+    margin: 10px;
+    border: 2px solid transparent;
+    font-size: medium;
+    overflow:auto;
+    
+    
+}
+.dec h1
+{
+    color:white;
+
+}
+.dec h2
+{
+    color:yellow;
+}
+.car {
+  display: grid 1fr;
+  /* border:2px solid rgba(241, 241, 117, 0.838);
+    border-radius: 45px; */
+  background-color:blueviolet;
+border-radius:50px ;
+
+}
+.car img {
+
+  padding: 36px;
+  height: 180px;
+  width: auto;
+  
+}
+
+.car img:hover
+{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.contactus
+{
+    columns: 2;
+    background-color:blueviolet;
+    /* border:2px solid rgba(241, 241, 117, 0.838);
+    border-radius: 45px; */
+    font-size: x-large;
+    color:black;
+    font-weight: 900;
+
+    padding: 27px;
+    display: block;
+
+    
+}
+
+.contactus label
+{
+    font-weight:900;
+
+    color:white;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+.contactus input,textarea
+{
+    color:black;
+    background-color:yellow;
+   
+    border-radius: 20px;
+    font-size: x-large;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.send
+{
+    color: black;
+    border-radius: 50px;
+    background-color: yellow;
+    font-size: large;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.send:hover
+{
+    background-color: black;
+    color: yellow;
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+.aboutus
+{
+    /* border:2px solid rgba(241, 241, 117, 0.838);
+    border-radius: 45px; */
+    text-align: center;
+    padding-left: 100px ;
+    padding-right: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    font-family:cursive;
+
+
+}
+.social
+{
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.359);
+    font-size: xx-large;
+    word-spacing: 45px;
+    border-radius: 50px;
+
+
+}
+i:hover
+{
+    transform: scale(1.9);
+    color:black;
+    transition-duration: 0.5s;
+}
